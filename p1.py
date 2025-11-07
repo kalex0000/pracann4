@@ -1,3 +1,4 @@
+#Implement Auto-Associative Memory Network for pattern storage and retrieval.
 import numpy as np
 class AutoAssociativeMemory:
     def __init__(self, size):
@@ -25,3 +26,4 @@ if __name__ == "__main__":
     recalled = model.recall(test_pattern)
     print("Input:    ", test_pattern)
     print("Recalled: ", recalled.tolist())
+
