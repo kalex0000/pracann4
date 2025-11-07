@@ -1,3 +1,4 @@
+#Implement Hetero-Associative Memory Network for input-output pattern association
 import numpy as np
 class HeteroAssociativeMemory:
     def __init__(self, input_size, output_size):
@@ -28,3 +29,4 @@ if __name__ == "__main__":
     recalled = model.recall(test_input)
     print("Input:    ", test_input)
     print("Recalled: ", recalled.tolist())
+
